@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+  --primary-color: #333333;
+  --secondary-color: #5c5959;
+  --light-color: #ffffff;
+  --dark-color: #000000;
+  --accent-color: #eeeae9;
+}
+.body{
+  background-color: var(--secondary-color);
+}
+.dark-mode{
+  --primary-color: #ffffff;
+  --secondary-color:#333333;
+  --light-color:#000000;
+
+
+
+}
+#toggleBtn{
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: var(--light-color);
+  color: var(--primary-color);
+}
+h1{
+   font-size: 52px;
+      line-height: 110%;
+       
+        color: var(--primary-color);
+ }
+
+ h2{
+      font-size: 40px;
+        line-height: 120%;
+           
+            color: var(--primary-color);
+
+ }
+
+ h3{
+      font-size: 32px;
+        line-height: 130%;
+        
+            color: var(--primary-color);
+ }
+
+ h4{
+      font-size: 16px;
+        line-height: 140%;
+     
+            color: var(--primary-color);
+      
+ }
+ h5{
+      font-size: 14px;
+        line-height: 140%;
+ 
+            color: var(--primary-color);
+      
+ }
+
+ p{
+   line-height: 140%;
+   font-size: 18px;
+    color: var(--secondary-color);
+  
+ }
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+   
+}
+#navbarDarkDropdownMenuLink{
+    color: blue;
+}
+.hero-section{
+   display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 80px ;
+    gap: 40px;
+    background-color: var(--light-color);
+    color: var(--primary-color);
+}
+.hero-text{
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.hero-section>img{
+  width: 600px;
+}
+#blog{
+  position: relative;
+}
+.hero-img-card {
+    position: absolute;
+    padding: 19px 40px;
+    background: var(--light-color);
+    border: none;
+    border-radius: 10px;
+    right: 500px;
+    bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.hero-btn>button{
+
+  background: var(--primary-color);
+  color: var(--accent-color);
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  box-shadow: 5px 3px 2px var(--secondary-color);
+  
+  
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+.hero-numbers{
+  display: flex;
+  gap: 20px;
+}
+.portfolio-section{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 80px ;
+    gap: 100px;
+    background-color: var(--light-color);
+    color: var(--primary-color);
+}
+.portfolio-card{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+   
+    gap: 60px;
+    background-color: var(--light-color);
+    color: var(--primary-color);
+} 
+.portfolio-card2{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+   
+    gap: 60px;
+    background-color: var(--light-color);
+    color: var(--primary-color);
+} 
+.card-body1{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 30px;
+ 
+}
+.portfolio-card >img{
+    width: 70%;
+    height: 300px;
+}
+.portfolio-card2 >img{
+    width: 70%;
+    height: 300px;
+}
+.team-section{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: space-around;
+    padding: 48px 80px ;
+    gap: 24px;
+    background-color: var(--light-color);
+    color: var(--primary-color);
+}
+
+.title-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   gap: 16px;
+    background-color: var(--light-color);
+    color: var(--primary-color);
+ }
+ .title-section >h5{
+    border-bottom: 2px solid var(--secondary-color);
+ }
+
+.contact-section{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: space-around;
+    padding: 48px 80px ;
+    gap: 24px;
+    /* background-color: var(--accent-color); */
+    color: var(--primary-color);
+ }
+ .message-section{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: start;
+    justify-content: space-around;
+    padding: 48px 80px ;
+    gap: 24px;
+    background-color: var(--light-color);
+    color: var(--primary-color);
+ }
+ .category-section{
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+      align-items: center;
+      justify-content: space-around;
+      padding: 48px 80px ;
+      gap: 24px;
+      background-color: var(--dark-color);
+      color: var(--light-color);
+
+ }
+ .category-text >p,h4{
+   color: var(--light-color);
+ }
+ #category-text{
+    width: 600px;
+ }
+ .footer-section{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 80px ;
+    gap: 24px;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+ }
+
+
+
+
+ @media (max-width: 768px) {
+  hero.hero-section {
+    padding: 32px 16px;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-text {
+    width: 300px;
+}
+.hero-text>h1{
+    font-size: 32px;
+}
+.hero-text>h2{
+    font-size: 24px;
+}
+.hero-text>p{
+    font-size: 16px;
+}
+.hero-btn{
+  display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero-numbers{
+    flex-direction: column;
+    gap: 20px;
+}
+img#blog {
+    width: 200px;
+}
+section.portfolio-section {
+    padding: 32px 16px;
+    gap: 32px;
+}
+.portfolio-card2 {
+    flex-direction: column;
+    /* width: 300px; */
+}
+.portfolio-card2 >img {
+    width: 70%;
+    height: 200px;
+}
+.card-body1 {
+    width: 275px;
+}
+.col.d-flex.align-items-center.gap-5 {
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-card {
+    flex-direction: column;
+}
+section.team-section {
+    padding: 32px 16px;
+    flex-direction: column;
+}
+section.contact-section {
+    padding: 32px 16px;
+    flex-direction: column;
+}
+.message-section {
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+      .category-section{
+      flex-direction: column;
+      padding: 24px 16px ;
+      gap: 16px;
+      align-items: start;
+   }
+ }
