@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'nunitoextrabold';
+    src: url('../fonts/Nunito-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nunitoregular';
+    src: url('../fonts/Nunito-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+ @font-face {
+    font-family: 'nunitobold';
+    src: url('../fonts/Nunito-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'nunitomedium';
+    src: url('../fonts/Nunito-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+ }
+    /* global css declared here */
+
+    :root{
+        /* --primary-color: white;
+        --secondary-color: black;
+        --background:rgba(15, 23, 42, 1);
+        --bg-blue:rgba(241, 245, 249, 1); */
+       --black:rgba(15, 23, 42, 1);
+       --blue:#0b1ae9;
+
+       --white: #FFFFFF;
+         --extrabold: 'nunitoextrabold', sans-serif;
+        --bold: 'nunitobold', sans-serif;
+        --medium: 'nunitomedium', sans-serif;
+        --regular: 'nunitoregular', sans-serif;    
+    }
+ body{
+    font-family: 'nunitoregular', sans-serif;
+    line-height: 110%;
+    transition: 0.4s ease;
+    background-color: var(--primary-color);
+ }
+
+ h1{
+   font-size: 52px;
+      color: var(--primary-color);
+      line-height: 110%;
+
+   font-family: var(--regular);
+ }
+
+ h2{
+      font-size: 40px;
+      color: var(--primary-color);
+      font-family: var(--regular);
+ }
+
+ h3{
+      font-size: 32px;
+      color: var(--secondary-color);
+
+      font-family: var(--regular);
+ }
+
+ h4{
+      font-size: 16px;
+        color: var(--primary-color);
+      font-family: var(--regular);
+ }
+
+ p{
+   line-height: 140%;
+   font-size: 16px;
+   color: var(--black);
+   font-family: var(--regular);
+ }
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+li{
+    list-style: none;
+    color: var(--secondary-color);
+}
+.header-btn{
+    background-color: var(--blue);
+    padding: 10px 20px;
+    color: var(--white);
+}
+.btn-tabs:hover{
+    background-color: var(--blue);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.btn-view{
+    background-color: var(--white);
+    padding: 10px 20px;
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+}
+.feature-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.feature-tags span {
+    background: var(--blue);
+    color: var(--white);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.learn{
+    color: var(--blue);
+}
+.img-card{
+    padding: 10px 20px;
+    background-color: var(--blue);
+    color: var(--white);
+    position: relative;
+    top: -59px;
+    box-shadow: 2px 2px 4px var(--blue);
+}
+.btn-tab{
+    border-radius: 10px;
+    padding: 17px 40px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+.btn-tab:hover{
+    background-color: var(--white);
+    color: var(--blue);
+    box-shadow: 5px 5px 4px var(--blue);
+}
+.left-card{
+    background-color: var(--blue);
+}
+ .card-icon {
+    width: 50px;
+    height: 50px;
+    background: var(--white);
+    color: var(--blue);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+ .card-icon2 {
+    width: 70px;
+    height: 70px;
+    background-color: color-mix(in srgb, var(--blue), transparent 90%);
+    color: var(--blue);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+ .category-section{
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+      align-items: center;
+      justify-content: space-around;
+      padding: 48px 80px ;
+      gap: 24px;
+      background-color: var(--dark-color);
+      color: var(--light-color);
+
+ }
+ .category-text >p,h4{
+   color: var(--light-color);
+ }
+ #category-text{
+    width: 600px;
+ }
+ .footer-section{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 80px ;
+    gap: 24px;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+ }
+
+
+ @media (max-width: 768px) {
+    .category-section{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: center;
+        justify-content: space-around;
+        padding: 48px 80px ;
+        gap: 24px;
+        background-color: var(--dark-color);
+        color: var(--light-color);
+     }
+     #category-text{
+        width: 100%;
+     }
+
+    
+ }
