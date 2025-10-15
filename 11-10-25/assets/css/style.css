@@ -3,6 +3,12 @@
   padding: 0px;
   box-sizing: border-box;
  }
+@font-face {
+    font-family: 'jost';
+    src: url('../fonts/Jost-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
    :root{
@@ -13,13 +19,52 @@
         --gray: rgba(17, 17, 17, 1);
        --yellow:#f5b642;
        --white: #FFFFFF;
-         --extrabold: 'nunitoextrabold', sans-serif;
-        --bold: 'nunitobold', sans-serif;
-        --medium: 'nunitomedium', sans-serif;
-        --regular: 'nunitoregular', sans-serif;    
+        
+        --regular: 'jost', sans-serif;    
     }
+     h1{
+   font-size: 52px;
+      /* color: var(--primary-color); */
+      line-height: 110%;
+
+   font-family: var(--regular);
+ }
+
+ h2{
+      font-size: 40px;
+      /* color: var(--primary-color); */
+      font-family: var(--regular);
+ }
+
+ h3{
+      font-size: 32px;
+      /* color: var(--secondary-color); */
+
+      font-family: var(--regular);
+ }
+
+ h4{
+      font-size: 16px;
+        /* color: var(--primary-color); */
+      font-family: var(--regular);
+ }
+
+ p{
+   line-height: 140%;
+   font-size: 16px;
+   /* color: var(--black); */
+   font-family: var(--regular);
+ }
+a{
+    text-decoration: none;
+    /* color: var(--secondary-color); */
+}
+li{
+    list-style: none;
+    /* color: var(--secondary-color); */
+}
     .know-text{
-      margin-left: 177px;
+      margin-left: 250px;
     }
     #search{
          width: 25px;

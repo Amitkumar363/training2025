@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#rightimg-frame2{
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+.main-frame4{
+    display: flex;
+   
+}
+#stroke{
+    width: 300px;
+}
+#stroke2 {
+    width: 200px;
+    position: relative;
+    left: -87px;
+    bottom: -137px;
+}
+#star {
+    width: 80px;
+    position: absolute;
+    left: -28px;
+}
+#unsplash {
+    width: 300px;
+    position: absolute;
+    top: 28px;
+    left: 50px;
+}
+#hero{
+    width: 500px;
+}
+.frame8-text{
+    font-size: 70px;
+}
+#frame9-right {
+    position: absolute;
+    top: -48px;
+    right: 259px;
+    width: 300px;
+}
+#frame9-left{
+    width: 300px;
+}
+.card-frame9 {
+    position: absolute;
+    left: 422px;
+    bottom: 15px;
+    width: 800px;
+}
+img#frame11-right {
+    position: absolute;
+    bottom: -63px;
+    right: 152px;
+}
+img#frame12-1 {
+    position: absolute;
+    top: -83px;
+    right: 13px;
+}
+img#frame12-2 {
+    position: absolute;
+    top: -213px;
+    right: -135px;
+    z-index: 1;
+}
+img#frame12-3 {
+    position: absolute;
+    top: -237px;
+    left: 26px;
+}
+img#frame12-4 {
+    position: absolute;
+    right: -11px;
+    top: -450px;
+}
+img#frame12-5 {
+    position: relative;
+    right: -376px;
+}
+img#bottomimg {
+    position: absolute;
+    left: 13px;
+    top: 233px;
+}
+img#star2 {
+    position: absolute;
+ 
+    z-index: 1;
+}
+img#topimg {
+    position: absolute;
+    top: -100px;
+}
+img#star1 {
+    position: absolute;
+    bottom: -292px;
+}
+img#star3 {
+    position: absolute;
+    bottom: -304px;
+    right: 25px;
+}
+.frame13-card {
+    position: absolute;
+    bottom: -393px;
+}
+
+
+
+
+
+@media (max-width:768px) {
+    #rightimg-frame2{
+        left: 0px;
+        top: 10px;
+    }
+    .main-frame4{
+        flex-direction: column;
+    }
+}
