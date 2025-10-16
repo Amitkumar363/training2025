@@ -9,8 +9,7 @@
     left: 30px;
 }
 .main-frame4{
-    display: flex;
-   
+    display: flex;   
 }
 #stroke{
     width: 300px;
@@ -110,6 +109,103 @@ img#star3 {
     position: absolute;
     bottom: -393px;
 }
+img#bgbrown {
+    position: absolute;
+    bottom: 97px;
+    width: 500px;
+    right: 0px;
+    z-index: 0;
+}
+img#bgyellow {
+    position: absolute;
+    width: 350px;
+    top: 10px;
+    left: 82px;
+}
+img#star4 {
+    position: absolute;
+    top: -50px;
+}
+img#unsplash1 {
+    position: relative;
+    top: 60px;
+    
+} 
+.frame16-main{
+    background-image: url("../img/frame16/AI\ image\ -\ OpenAI.png");
+  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: auto;
+}
+.card-frame17 {
+    position: absolute;
+    top: -107px;
+    left: 149px;
+}
+.card-frame20 {
+    position: relative;
+    top: -40px;
+    left: 179px;
+}
+.frame22-top{
+    top: -50px;
+}
+img#hero-frame24 {
+    width: 400px;
+    position: relative;
+    top: -50px;
+    right: -73px;
+    z-index: 1;
+}
+img#star-frame24 {
+    position: absolute;
+    left: -27px;
+}
+img#yellow-frame24 {
+    position: absolute;
+    top: -51px;
+    width: 300px;
+}
+img#star2-frame24 {
+    position: relative;
+    right: -383px;
+    bottom: 293px;
+}
+img#shape-frame25 {
+    position: absolute;
+    right: -65px;
+    top: -129px;
+}
+img#img-frame25 {
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    left: 154px;
+}
+img#vector2-frame25 {
+    position: absolute;
+    right: 0px;
+}
+img#vector-frame25 {
+    position: absolute;
+}
+
+.row.bottom-figma25 {
+    margin-top: 467px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
